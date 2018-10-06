@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/gim-uichan/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.7/android/src/main/assets"/><source path="/Users/gim-uichan/project/qorder/qorder_frontend/qorder/build/barcode_scan/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/gim-uichan/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.7/android/src/debug/assets"/></dataSet></merger>
