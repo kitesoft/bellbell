@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/gim-uichan/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.1/android/src/main/assets"/><source path="/Users/gim-uichan/project/qorder/qorder_frontend/qorder/build/cloud_firestore/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/gim-uichan/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.1/android/src/debug/assets"/></dataSet></merger>

@@ -4,12 +4,12 @@ import 'package:barcode_scan/barcode_scan.dart';
 import 'dart:async';
 import 'dart:convert';
 
-class QRScreen extends StatefulWidget{
+class QRScreen extends StatefulWidget {
   @override
   State createState() => new QRScreenState();
 }
 
-class QRScreenState extends State<QRScreen>{
+class QRScreenState extends State<QRScreen> {
   String _scanRe = "";
   Map<String, dynamic> _result = Map<String, dynamic>();
 
@@ -41,12 +41,12 @@ class QRScreenState extends State<QRScreen>{
   }
 
   @override
-  Widget build(BuildContext context){
-    if(_scanRe.length == 0){
+  Widget build(BuildContext context) {
+    if (_scanRe.length == 0) {
       _scanQR();
     }
 
-    try{
+    try {
       _result = json.decode(_scanRe);
       print(_result);
     } on FormatException {
@@ -54,12 +54,8 @@ class QRScreenState extends State<QRScreen>{
     }
 
     return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("QR Code")
-      ),
-      body: new Center(
-        child: new Text("Wrong QR!, Please Rescan")
-      ),
+      appBar: new AppBar(title: new Text("QR Code")),
+      body: new Center(child: new Text("Wrong QR!, Please Rescan")),
       floatingActionButton: FloatingActionButton.extended(
         icon: Icon(Icons.camera_alt),
         label: Text("Scan"),

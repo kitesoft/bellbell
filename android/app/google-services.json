@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "904542544560",
+    "firebase_url": "https://bellbell-b82b1.firebaseio.com",
+    "project_id": "bellbell-b82b1",
+    "storage_bucket": "bellbell-b82b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904542544560:android:5ac03fcbbe1f3039",
+        "android_client_info": {
+          "package_name": "com.example.bellbell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904542544560-v2isunt4jj4blmp6t0ksss3v56nj50nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrrZUa3cQyOQM1D6ewayyc0EmITb3ZHAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
