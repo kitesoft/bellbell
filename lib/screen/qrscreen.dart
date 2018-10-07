@@ -10,7 +10,8 @@ class QRScreen extends StatefulWidget {
 }
 
 class QRScreenState extends State<QRScreen> {
-  String _scanRe = "";
+  String _scanRe = "{'rID': '0NwKXCqbEcRNQEFWJWgs', 'tId' : 'aY1Zrcgz4XKYqVYhTPUg'}";
+  // String _scanRe = "";
   Map<String, dynamic> _result = Map<String, dynamic>();
 
   Future _scanQR() async {
